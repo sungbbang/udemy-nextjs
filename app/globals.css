@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* container 커스텀 클래스 정의 */
+@layer components {
+  .container {
+    @apply mx-auto max-w-6xl xl:max-w-7xl px-8;
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
